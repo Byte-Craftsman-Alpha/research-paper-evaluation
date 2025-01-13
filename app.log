@@ -1,0 +1,258 @@
+2025-01-13 16:10:14,558 - INFO -  * Detected change in '/home/aditya/Desktop/IIT_Kharagpur Hackthon/Innovation_Warehouse_KDSH_ROUND2/Demo/app.py', reloading
+2025-01-13 16:10:15,464 - INFO - Starting the application...
+2025-01-13 16:10:15,475 - WARNING -  * Debugger is active!
+2025-01-13 16:10:15,475 - INFO -  * Debugger PIN: 123-344-738
+2025-01-13 16:10:27,008 - INFO - User 127.0.0.1 uploaded a file for evaluation
+2025-01-13 16:10:27,078 - DEBUG - Checking None for explicit credentials as part of auth process...
+2025-01-13 16:10:27,078 - DEBUG - Checking Cloud SDK credentials as part of auth process...
+2025-01-13 16:10:27,078 - DEBUG - Cloud SDK credentials not found on disk; not using them
+2025-01-13 16:10:27,079 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 16:10:30,083 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-01-13 16:10:30,993 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 16:10:33,997 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-01-13 16:10:35,947 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 16:10:38,950 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-01-13 16:10:38,951 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-01-13 16:10:38,951 - ERROR - [127.0.0.1] An error occurred while evaluating the paper. Error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2025-01-13 16:10:38,952 - INFO - 127.0.0.1 - - [13/Jan/2025 16:10:38] "POST /analyse HTTP/1.1" 200 -
+2025-01-13 16:11:16,718 - INFO - Starting the application...
+2025-01-13 16:11:16,726 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-13 16:11:16,727 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-13 16:11:16,727 - INFO -  * Restarting with stat
+2025-01-13 16:11:17,462 - INFO - Starting the application...
+2025-01-13 16:11:17,470 - WARNING -  * Debugger is active!
+2025-01-13 16:11:17,470 - INFO -  * Debugger PIN: 123-344-738
+2025-01-13 16:11:32,803 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:11:32,805 - INFO - 127.0.0.1 - - [13/Jan/2025 16:11:32] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-13 16:11:32,859 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:11:32,859 - INFO - 127.0.0.1 - - [13/Jan/2025 16:11:32] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:11:41,483 - INFO - User 127.0.0.1 uploaded a file for evaluation
+2025-01-13 16:11:41,556 - DEBUG - Checking None for explicit credentials as part of auth process...
+2025-01-13 16:11:41,556 - DEBUG - Checking Cloud SDK credentials as part of auth process...
+2025-01-13 16:11:41,556 - DEBUG - Cloud SDK credentials not found on disk; not using them
+2025-01-13 16:11:41,557 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 16:11:44,560 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-01-13 16:11:45,466 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 16:11:48,469 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-01-13 16:11:50,315 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 16:11:53,319 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-01-13 16:11:53,319 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-01-13 16:11:53,320 - ERROR - [127.0.0.1] An error occurred while evaluating the paper. Error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2025-01-13 16:11:53,320 - INFO - 127.0.0.1 - - [13/Jan/2025 16:11:53] "POST /analyse HTTP/1.1" 200 -
+2025-01-13 16:12:36,387 - INFO - Starting the application...
+2025-01-13 16:12:36,395 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-13 16:12:36,395 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-13 16:12:36,395 - INFO -  * Restarting with stat
+2025-01-13 16:12:37,206 - INFO - Starting the application...
+2025-01-13 16:12:37,212 - WARNING -  * Debugger is active!
+2025-01-13 16:12:37,213 - INFO -  * Debugger PIN: 123-344-738
+2025-01-13 16:12:40,184 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:12:40,186 - INFO - 127.0.0.1 - - [13/Jan/2025 16:12:40] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-13 16:12:40,240 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:12:40,241 - INFO - 127.0.0.1 - - [13/Jan/2025 16:12:40] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:12:45,012 - INFO - User 127.0.0.1 uploaded a file for evaluation
+2025-01-13 16:12:51,367 - INFO - [127.0.0.1] Paper evaluation completed successfully with the following response: {
+  "conference": "CVPR",
+  "publishable": true,
+  "reason": "The paper presents a novel approach to drone tracking and position estimation using LiDAR data and clustering techniques.  The methodology is clearly described, including data sources, preprocessing steps, the DBSCAN algorithm, and a fallback mechanism for handling missing data.  The results section presents quantitative metrics (MSE and accuracy) and compares the proposed method to other approaches. While the accuracy of 0.322 is not exceptionally high, the paper acknowledges this and provides a reasonable explanation, including data limitations. The introduction adequately establishes the problem and the significance of the research.  The paper is well-structured and clearly written.  The combination of computer vision (LiDAR data processing), machine learning (DBSCAN), and robotics (drone tracking) makes CVPR an appropriate conference. However, the relatively low accuracy could be a point of contention with reviewers, and further improvement or analysis of the results is suggested before submission."
+}
+2025-01-13 16:12:51,368 - INFO - 127.0.0.1 - - [13/Jan/2025 16:12:51] "POST /analyse HTTP/1.1" 200 -
+2025-01-13 16:13:32,967 - INFO - User 127.0.0.1 requested for a file accessed at app.log
+2025-01-13 16:13:32,968 - INFO - 127.0.0.1 - - [13/Jan/2025 16:13:32] "GET /app.log HTTP/1.1" 200 -
+2025-01-13 16:21:13,492 - INFO - Starting the application...
+2025-01-13 16:21:13,499 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-13 16:21:13,499 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-13 16:21:13,499 - INFO -  * Restarting with stat
+2025-01-13 16:21:14,087 - INFO - Starting the application...
+2025-01-13 16:21:14,092 - WARNING -  * Debugger is active!
+2025-01-13 16:21:14,092 - INFO -  * Debugger PIN: 123-344-738
+2025-01-13 16:21:15,413 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:21:15,413 - INFO - 127.0.0.1 - - [13/Jan/2025 16:21:15] "GET / HTTP/1.1" 200 -
+2025-01-13 16:21:15,448 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:21:15,449 - INFO - 127.0.0.1 - - [13/Jan/2025 16:21:15] "GET /resources/style.css HTTP/1.1" 200 -
+2025-01-13 16:22:13,910 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:22:13,911 - INFO - 127.0.0.1 - - [13/Jan/2025 16:22:13] "GET / HTTP/1.1" 200 -
+2025-01-13 16:22:13,946 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:22:13,947 - INFO - 127.0.0.1 - - [13/Jan/2025 16:22:13] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:22:26,384 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:22:26,385 - INFO - 127.0.0.1 - - [13/Jan/2025 16:22:26] "GET / HTTP/1.1" 200 -
+2025-01-13 16:22:26,418 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:22:26,418 - INFO - 127.0.0.1 - - [13/Jan/2025 16:22:26] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:22:38,143 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:22:38,144 - INFO - 127.0.0.1 - - [13/Jan/2025 16:22:38] "GET / HTTP/1.1" 200 -
+2025-01-13 16:22:38,185 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:22:38,186 - INFO - 127.0.0.1 - - [13/Jan/2025 16:22:38] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:22:57,867 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:22:57,868 - INFO - 127.0.0.1 - - [13/Jan/2025 16:22:57] "GET / HTTP/1.1" 200 -
+2025-01-13 16:22:57,894 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:22:57,895 - INFO - 127.0.0.1 - - [13/Jan/2025 16:22:57] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:23:51,810 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:23:51,811 - INFO - 127.0.0.1 - - [13/Jan/2025 16:23:51] "GET / HTTP/1.1" 200 -
+2025-01-13 16:23:51,838 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:23:51,838 - INFO - 127.0.0.1 - - [13/Jan/2025 16:23:51] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:24:12,541 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:24:12,541 - INFO - 127.0.0.1 - - [13/Jan/2025 16:24:12] "GET / HTTP/1.1" 200 -
+2025-01-13 16:24:12,577 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:24:12,578 - INFO - 127.0.0.1 - - [13/Jan/2025 16:24:12] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:24:26,248 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:24:26,249 - INFO - 127.0.0.1 - - [13/Jan/2025 16:24:26] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-13 16:24:26,294 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:24:26,295 - INFO - 127.0.0.1 - - [13/Jan/2025 16:24:26] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:26:40,210 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:26:40,210 - INFO - 127.0.0.1 - - [13/Jan/2025 16:26:40] "GET / HTTP/1.1" 200 -
+2025-01-13 16:26:40,242 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:26:40,243 - INFO - 127.0.0.1 - - [13/Jan/2025 16:26:40] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:26:55,589 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:26:55,589 - INFO - 127.0.0.1 - - [13/Jan/2025 16:26:55] "GET / HTTP/1.1" 200 -
+2025-01-13 16:26:55,623 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:26:55,624 - INFO - 127.0.0.1 - - [13/Jan/2025 16:26:55] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:27:26,184 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:27:26,185 - INFO - 127.0.0.1 - - [13/Jan/2025 16:27:26] "GET / HTTP/1.1" 200 -
+2025-01-13 16:27:26,217 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:27:26,218 - INFO - 127.0.0.1 - - [13/Jan/2025 16:27:26] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:28:44,910 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:28:44,911 - INFO - 127.0.0.1 - - [13/Jan/2025 16:28:44] "GET / HTTP/1.1" 200 -
+2025-01-13 16:28:44,956 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:28:44,957 - INFO - 127.0.0.1 - - [13/Jan/2025 16:28:44] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:28:51,194 - INFO - User 127.0.0.1 uploaded a file for evaluation
+2025-01-13 16:28:51,289 - DEBUG - Checking None for explicit credentials as part of auth process...
+2025-01-13 16:28:51,289 - DEBUG - Checking Cloud SDK credentials as part of auth process...
+2025-01-13 16:28:51,289 - DEBUG - Cloud SDK credentials not found on disk; not using them
+2025-01-13 16:28:51,290 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 16:28:54,293 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-01-13 16:28:55,246 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 16:28:58,249 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-01-13 16:29:00,334 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 16:29:03,337 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-01-13 16:29:03,338 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-01-13 16:29:03,338 - ERROR - [127.0.0.1] An error occurred while evaluating the paper. Error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2025-01-13 16:29:03,338 - INFO - 127.0.0.1 - - [13/Jan/2025 16:29:03] "POST /analyse HTTP/1.1" 200 -
+2025-01-13 16:35:05,774 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:35:05,775 - INFO - 127.0.0.1 - - [13/Jan/2025 16:35:05] "GET / HTTP/1.1" 200 -
+2025-01-13 16:35:05,833 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:35:05,834 - INFO - 127.0.0.1 - - [13/Jan/2025 16:35:05] "GET /resources/style.css HTTP/1.1" 200 -
+2025-01-13 16:35:10,475 - INFO - User 127.0.0.1 uploaded a file for evaluation
+2025-01-13 16:35:10,492 - DEBUG - Checking None for explicit credentials as part of auth process...
+2025-01-13 16:35:10,492 - DEBUG - Checking Cloud SDK credentials as part of auth process...
+2025-01-13 16:35:10,492 - DEBUG - Cloud SDK credentials not found on disk; not using them
+2025-01-13 16:35:10,492 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 16:35:13,495 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-01-13 16:35:14,514 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 16:35:17,517 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-01-13 16:35:19,397 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 16:35:22,401 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-01-13 16:35:22,402 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-01-13 16:35:22,402 - ERROR - [127.0.0.1] An error occurred while evaluating the paper. Error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2025-01-13 16:35:22,403 - INFO - 127.0.0.1 - - [13/Jan/2025 16:35:22] "POST /analyse HTTP/1.1" 200 -
+2025-01-13 16:37:10,792 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:37:10,792 - INFO - 127.0.0.1 - - [13/Jan/2025 16:37:10] "GET / HTTP/1.1" 200 -
+2025-01-13 16:37:10,850 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:37:10,851 - INFO - 127.0.0.1 - - [13/Jan/2025 16:37:10] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:37:59,908 - INFO - Starting the application...
+2025-01-13 16:37:59,916 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-13 16:37:59,916 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-13 16:37:59,916 - INFO -  * Restarting with stat
+2025-01-13 16:38:00,551 - INFO - Starting the application...
+2025-01-13 16:38:00,558 - WARNING -  * Debugger is active!
+2025-01-13 16:38:00,559 - INFO -  * Debugger PIN: 123-344-738
+2025-01-13 16:39:06,892 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:39:06,893 - INFO - 127.0.0.1 - - [13/Jan/2025 16:39:06] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-13 16:39:06,938 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:39:06,939 - INFO - 127.0.0.1 - - [13/Jan/2025 16:39:06] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 16:39:14,820 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:39:14,821 - INFO - 127.0.0.1 - - [13/Jan/2025 16:39:14] "GET / HTTP/1.1" 200 -
+2025-01-13 16:39:15,215 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 16:39:15,216 - INFO - 127.0.0.1 - - [13/Jan/2025 16:39:15] "GET /resources/style.css HTTP/1.1" 200 -
+2025-01-13 16:39:18,083 - INFO - User 127.0.0.1 requested for a file accessed at favicon.ico
+2025-01-13 16:39:18,084 - INFO - 127.0.0.1 - - [13/Jan/2025 16:39:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-13 16:39:36,066 - INFO - User 127.0.0.1 uploaded a file for evaluation
+2025-01-13 16:39:42,453 - INFO - [127.0.0.1] Paper evaluation completed successfully with the following response: {
+  "conference": "NA",
+  "publishable": false,
+  "reason": "The paper presents an incoherent and poorly justified research approach.  The methodology section describes bizarre and unsubstantiated techniques, such as introducing 'nonsensical data points' to stimulate creativity and using classical music to affect biopolymer properties.  These methods lack scientific rigor and are not adequately explained or justified.  The claim of 'philosophical resonance' enhancing model performance is entirely speculative and lacks empirical support.  The overall narrative is disorganized, jumping between seemingly unrelated topics (AI-driven personalization, edible biopolymers, and avant-garde art) without a clear unifying thread.  The claims made throughout the paper are often grandiose and lack evidence, such as the claim that the model 'often surpasses human instructors.'  The paper needs substantial revision to become publishable.  For example, the following paragraph exemplifies the paper's issues:  \"To develop an AI-driven personalization framework for online education platforms, we employed a multifaceted approach, incorporating both traditional machine learning techniques and unconventional methods inspired by the works of avant-garde artists. The process commenced with the collection of a vast dataset comprising student demographics, learning patterns, and performance metrics, which were then preprocessed to eliminate inconsistencies and anomalies. However, in a deliberate attempt to introduce randomness, we also integrated a module that periodically injected nonsensical data points, ostensibly to stimulate the model's creative thinking capabilities.\""
+}
+2025-01-13 16:39:42,454 - INFO - 127.0.0.1 - - [13/Jan/2025 16:39:42] "POST /analyse HTTP/1.1" 200 -
+2025-01-13 16:39:52,613 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 16:39:52,614 - INFO - 127.0.0.1 - - [13/Jan/2025 16:39:52] "GET / HTTP/1.1" 200 -
+2025-01-13 16:40:37,508 - INFO - User 127.0.0.1 uploaded a file for evaluation
+2025-01-13 16:40:43,278 - INFO - [127.0.0.1] Paper evaluation completed successfully with the following response: {
+  "conference": "NA",
+  "publishable": false,
+  "reason": "The paper is non-publishable due to its nonsensical and incoherent content.  The methodologies described are nonsensical and lack any scientific basis. The arguments presented are rambling and lack a clear structure or logical flow. Many claims are made without any evidence or justification.  For example, the abstract reads: \"Metamorphosis of galvanic oscillations in metals precipitates an intriguing paradigm shift, juxtaposed with the ephemeral nature of culinary arts, wherein the viscosity of cake batter intersects with the ontological implications of fungal growth, thereby instantiating a dialectical tension between the corporeal and the ephemeral, as the luminescent properties of certain metals converge with the choreographed movements of avian species, while the diaphanous textures of silk fabrics whispers secrets to the wind, which in turn resonates with the vibrational frequencies of subatomic particles, culminating in an ineffable synthesis of the transcendent and the mundane.\" This is not suitable for academic publication.  Almost every paragraph exhibits similar issues.  The described \"methodology\" in section 3 is entirely fabricated, and the \"results\" presented are equally nonsensical."
+}
+2025-01-13 16:40:43,279 - INFO - 127.0.0.1 - - [13/Jan/2025 16:40:43] "POST /analyse HTTP/1.1" 200 -
+2025-01-13 17:44:11,399 - INFO - Starting the application...
+2025-01-13 17:44:11,419 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-13 17:44:11,419 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-13 17:44:11,421 - INFO -  * Restarting with stat
+2025-01-13 17:44:12,061 - INFO - Starting the application...
+2025-01-13 17:44:12,066 - WARNING -  * Debugger is active!
+2025-01-13 17:44:12,110 - INFO -  * Debugger PIN: 198-550-257
+2025-01-13 17:44:14,692 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 17:44:14,693 - INFO - 127.0.0.1 - - [13/Jan/2025 17:44:14] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-13 17:44:14,713 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 17:44:14,714 - INFO - 127.0.0.1 - - [13/Jan/2025 17:44:14] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 17:44:30,447 - INFO - User 127.0.0.1 uploaded a file for evaluation
+2025-01-13 17:44:30,658 - DEBUG - Checking None for explicit credentials as part of auth process...
+2025-01-13 17:44:30,658 - DEBUG - Checking Cloud SDK credentials as part of auth process...
+2025-01-13 17:44:30,658 - DEBUG - Cloud SDK credentials not found on disk; not using them
+2025-01-13 17:44:30,660 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 17:44:33,664 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-01-13 17:44:34,704 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 17:44:37,707 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-01-13 17:44:39,556 - DEBUG - Making request: GET http://169.254.169.254
+2025-01-13 17:44:42,559 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2025-01-13 17:44:42,559 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-01-13 17:44:42,560 - ERROR - [127.0.0.1] An error occurred while evaluating the paper. Error: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+2025-01-13 17:44:42,560 - INFO - 127.0.0.1 - - [13/Jan/2025 17:44:42] "POST /analyse HTTP/1.1" 200 -
+2025-01-13 17:44:55,112 - INFO - Starting the application...
+2025-01-13 17:44:55,119 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-13 17:44:55,119 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-13 17:44:55,120 - INFO -  * Restarting with stat
+2025-01-13 17:44:55,752 - INFO - Starting the application...
+2025-01-13 17:44:55,760 - WARNING -  * Debugger is active!
+2025-01-13 17:44:55,761 - INFO -  * Debugger PIN: 198-550-257
+2025-01-13 17:44:57,018 - INFO - User 127.0.0.1 visited the homepage
+2025-01-13 17:44:57,020 - INFO - 127.0.0.1 - - [13/Jan/2025 17:44:57] "[36mGET / HTTP/1.1[0m" 304 -
+2025-01-13 17:44:57,040 - INFO - User 127.0.0.1 requested for a file accessed at resources/style.css
+2025-01-13 17:44:57,041 - INFO - 127.0.0.1 - - [13/Jan/2025 17:44:57] "[36mGET /resources/style.css HTTP/1.1[0m" 304 -
+2025-01-13 17:45:03,223 - INFO - User 127.0.0.1 uploaded a file for evaluation
+2025-01-13 17:45:09,607 - INFO - [127.0.0.1] Paper evaluation completed successfully with the following response: {
+  "conference": "CVPR",
+  "publishable": true,
+  "reason": "The research paper presents a novel approach for drone tracking and position estimation using a clustering-based learning method.  The methodology is clearly described, involving data fusion from multiple LiDAR sensors (Livox Avia and LiDAR 360), synchronization of time codes, DBSCAN clustering for object identification, and a fallback mechanism for handling missing data.  The results section provides quantitative metrics (MSE loss and classification accuracy), and a comparison to other methods on a leaderboard is included. While the accuracy isn't exceptionally high (0.322), this is likely due to the challenges inherent in drone tracking, particularly with the use of LiDAR.  The paper is well-structured and includes a comprehensive introduction and conclusion. The focus is on computer vision and robotics making CVPR a suitable conference. The paper is publishable, provided the authors address minor concerns about the low accuracy and discuss potential improvements or limitations of their approach."
+}
+2025-01-13 17:45:09,608 - INFO - 127.0.0.1 - - [13/Jan/2025 17:45:09] "POST /analyse HTTP/1.1" 200 -
+2025-01-13 18:19:59,780 - INFO - User 127.0.0.1 uploaded a file for evaluation
+2025-01-13 18:20:12,476 - INFO - [127.0.0.1] Paper evaluation completed successfully with the following response: {
+  "conference": "NA",
+  "publishable": false,
+  "reason": "While the paper presents an interesting interdisciplinary approach combining augmented reality, flamenco dance, and LSTM-based gesture modeling, it suffers from several critical weaknesses that significantly hinder its suitability for publication. The methodology section lacks rigor and detail, with insufficient information on data collection, experimental design, and statistical analysis. Many of the claims made are unsubstantiated, particularly those related to cross-cultural gesture drift, emotional contagion, and the application of chaos theory and quantum mechanics to flamenco. For instance, the paragraph describing the \"Cross-Cultural Gesture Drift\" states: \"Interestingly, the model began to exhibit an unexpected behavior, frequently predicting movements that seemed unrelated to flamenco, such as gestures from ballet or even what appeared to be fragments of a traditional African dance.\"  This observation is presented without any quantitative analysis, statistical significance, or explanation of why the model produced such results. This lack of methodological rigor and evidence-based support casts doubt on the validity and reliability of the findings. Similarly, the paper makes extravagant claims about blending flamenco with other genres without proper justification, citing \"an unexpected visit from a group of wild flamenco enthusiasts\" as evidence, which is anecdotal and hardly scientific. The introduction of unusual concepts, like the application of chaos theory and quantum mechanics without a clear theoretical framework and empirical evidence, makes the claims appear speculative and lack scientific grounding. The writing style is also somewhat overly descriptive and lacks scientific precision, with numerous instances of unsupported assertions and subjective statements. Overall, the paper's methodological flaws, unsupported claims, and disorganized presentation make it unsuitable for publication in its current form. A significant revision is required to address these issues before considering it for submission to any conference."
+}
+2025-01-13 18:20:12,477 - INFO - 127.0.0.1 - - [13/Jan/2025 18:20:12] "POST /analyse HTTP/1.1" 200 -

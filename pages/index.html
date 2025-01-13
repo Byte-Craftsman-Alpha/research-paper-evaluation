@@ -1,0 +1,194 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Research Paper Analyser
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../resources/style.css">
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4">
+    <div class="loader-container" hidden="hidden">
+        <svg class="animate-spin h-10 w-10 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor"
+                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+            </path>
+        </svg>
+    </div>
+    <div id="popup-container" class="fixed top-5 right-5 space-y-4"></div>
+    <div class="bg-white shadow-lg rounded-lg p-6 w-full max-w-3xl">
+        <h1 class="text-2xl font-bold mb-4 text-center">
+            Upload PDF and Evaluate your Paper
+        </h1>
+        <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="pdf-upload">
+                <span class="text-gray-500 font-medium mb-2">
+                    Upload PDF
+                </span>
+                <div class="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center">
+                    <div class="flex justify-center mb-4">
+                        <i class="fas fa-cloud-upload-alt text-2xl text-gray-500">
+                        </i>
+                    </div>
+                    <p class="text-blue-600 font-medium">
+                        Click to upload
+                    </p>
+                    <p class="text-gray-500">
+                        
+                    </p>
+                    <p class="text-gray-400 text-sm">
+                        *PDF files only (max. 10MB)
+                    </p>
+                </div>
+            </label>
+            <input accept="application/pdf" hidden
+                class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:shadow-outline"
+                id="pdf-upload" type="file" />
+        </div>
+        <div class="mb-4 hidden fade-in" id="pdf-container">
+            <h2 class="text-xl font-semibold mb-2">
+                Uploaded PDF:
+            </h2>
+            <div class="border p-4 bg-gray-50">
+                <embed id="pdfViewer" type="application/pdf">
+            </div>
+        </div>
+        <div class="hidden fade-in" id="summary-container">
+            <h2 class="text-xl font-semibold mb-2">
+                Processed Summary:
+            </h2>
+            <span class="text-gray-700 text-sm">
+                Conference:
+            </span>
+            <div class="border rounded-lg p-4 bg-gray-50">
+                <p class="text-gray-700">
+                    This is a placeholder for the processed summary of the uploaded PDF. The summary will be displayed
+                    here after processing.
+                </p>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <button
+                class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 focus:outline-none focus:shadow-outline"
+                id="process-btn">
+                Process PDF
+            </button>
+        </div>
+    </div>
+    <script>
+        function showPopupMessage(type, message, duration = 3000) {
+            const container = document.getElementById('popup-container');
+            const popup = document.createElement('div');
+            popup.classList.add('popup-message', 'p-4', 'rounded', 'shadow-lg', 'flex', 'items-center', 'space-x-2', 'text-white');
+
+            switch (type) {
+                case 'success':
+                    popup.classList.add('bg-green-500');
+                    popup.innerHTML = `<i class="fas fa-check-circle"></i><span>${message}</span>`;
+                    break;
+                case 'error':
+                    popup.classList.add('bg-red-500');
+                    popup.innerHTML = `<i class="fas fa-times-circle"></i><span>${message}</span>`;
+                    break;
+                case 'warning':
+                    popup.classList.add('bg-yellow-500');
+                    popup.innerHTML = `<i class="fas fa-exclamation-circle"></i><span>${message}</span>`;
+                    break;
+                case 'info':
+                    popup.classList.add('bg-blue-500');
+                    popup.innerHTML = `<i class="fas fa-info-circle"></i><span>${message}</span>`;
+                    break;
+                default:
+                    popup.classList.add('bg-gray-500');
+                    popup.innerHTML = `<i class="fas fa-info-circle"></i><span>${message}</span>`;
+            }
+
+            container.appendChild(popup);
+
+            setTimeout(() => {
+                popup.style.opacity = '0';
+                setTimeout(() => {
+                    popup.remove();
+                }, 500);
+            }, duration);
+        }
+
+        document.getElementById('pdf-upload').addEventListener('change', function () {
+            const file = event.target.files[0];
+            if (file && file.type === 'application/pdf') {
+                const fileURL = URL.createObjectURL(file);
+                document.getElementById('pdfViewer').src = fileURL;
+                document.getElementById('pdf-container').classList.remove('hidden');
+            } else {
+                showPopupMessage('warning', 'Please upload a valid PDF file.', 5000);
+            }
+            // hide process summary 
+            document.getElementById('summary-container').classList.add('hidden');
+        });
+
+        document.getElementById('process-btn').addEventListener('click', function () {
+            // show loader
+            document.querySelector('.loader-container').removeAttribute('hidden');
+
+            const fileInput = document.getElementById('pdf-upload');
+            const file = fileInput.files[0];
+            if (file && file.type === 'application/pdf') {
+                const reader = new FileReader();
+                reader.readAsDataURL(file);
+
+                reader.onload = function () {
+                    const base64Data = reader.result.split(',')[1];
+                    fetch('/analyse', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ pdfData: base64Data })
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log(data)
+                            // write response to summary container
+                            document.getElementById('summary-container').innerHTML = `
+                                <h2 class="text-xl font-semibold mb-2">
+                                    Your research paper is ${data.data.publishable ? 'Publishable' : 'Not Publishable'}:
+                                </h2>
+                                <span class="text-gray-700 text-sm">
+                                    Conference: ${data.data.conference}
+                                </span>
+                                <div class="border rounded-lg p-4 bg-gray-50">
+                                    <p class="text-gray-700">
+                                        ${data.data.reason}
+                                    </p>
+                                </div>
+                            `;
+                            showPopupMessage('success', data.message, 5000);
+                            document.querySelector('.loader-container').setAttribute('hidden', 'hidden');
+                            document.getElementById('summary-container').classList.remove('hidden');
+
+                        })
+                        .catch(error => {
+                            showPopupMessage('error', 'An error occurred while processing the PDF. Please try again.', 5000);
+                            document.querySelector('.loader-container').setAttribute('hidden', 'hidden');
+                        });
+                };
+
+            } else {
+                showPopupMessage('warning', 'Please upload a valid PDF file.', 5000);
+                document.querySelector('.loader-container').setAttribute('hidden', 'hidden');
+                document.getElementById('summary-container').classList.remove('hidden');
+            }
+            // hide loader
+        });
+    </script>
+</body>
+
+</html>
